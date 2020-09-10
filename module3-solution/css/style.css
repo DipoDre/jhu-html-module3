@@ -65,17 +65,11 @@ header .bg-info {
     padding: 7px 20px 20px;
 }
 
-#chicken-section h5 {
+#chicken-section h5, #beef-section h5, #sushi-section h5 {
     font-weight: bold;
     margin-top: 0px;
 }
 
-#chicken-section p {
+#chicken-section p, #beef-section p, #sushi-section p {
     margin-top: 1rem;
-}
-
-@media screen and (max-width: 576px) {
-    #main-content .row {
-        width: 80%;
-    }    
 }
