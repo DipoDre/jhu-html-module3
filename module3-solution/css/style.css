@@ -1,0 +1,81 @@
+.navbar {
+    padding: 0;
+}
+
+.navbar-toggler {
+    margin-top: .3125rem;
+    margin-bottom: .3125rem;
+    margin-right: 1rem;
+}
+
+header .bg-info {
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+.navbar-brand {
+    font-size: 2em;
+    font-weight: bold;
+    margin-left: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.hamburger .fa-bars {
+    font-size: 1.5em;
+    color:black;
+}
+
+.navbar-collapse {
+    background-color: lightgreen;
+}
+
+.navbar-light .navbar-toggler {
+    border: 2px solid black;
+}
+
+.navbar-light .navbar-toggler:hover {
+    border: 2px solid white;
+    color: white;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color:black;
+    border-style: solid solid none;
+    border-width: 1px;
+    border-color: black;
+}
+
+.navbar-nav .nav-item a:hover {
+    background-color: white;
+}
+
+#main-content h2 {
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#main-content .row {
+    width: 100%;
+    margin: 30px auto;
+}
+
+#main-content .row .bg-info {
+    padding: 7px 20px 20px;
+}
+
+#chicken-section h5 {
+    font-weight: bold;
+    margin-top: 0px;
+}
+
+#chicken-section p {
+    margin-top: 1rem;
+}
+
+@media screen and (max-width: 576px) {
+    #main-content .row {
+        width: 80%;
+    }    
+}
